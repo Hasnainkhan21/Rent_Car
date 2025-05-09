@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(249, 234, 188);
+    padding-inline:  15px;
+}
+#navigation{
+    display: flex;
+     gap: 20px;
+      width: 250px;
+      justify-content: space-around;
+      color: black;
+      font-family: cursive;
+      font-size: 14px;
+}
+#navigation a:hover{
+    color: gray;
+    cursor: pointer;
+}
+#navigation a:active{
+    color: black;
+}
+#book{
+    position: relative;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold; font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(220, 220, 3);
+    border: none;
+}
+#book:hover{
+    
+    background-color: rgb(203, 151, 6);
+    border: 1px solid gray;
+    cursor: pointer;
+}
+#book:active{
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    border: none;
+}
+#hero {
+    width: 100%;
+    height: 400px;
+    background-image: url(./assets/pexels-jmark-253096.jpg);
+    background-size: cover;   
+    background-position: center;  
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:last baseline;
+}
+#hero img {
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    position: absolute;
+}
+#hero h1{
+    position:relative;
+  margin-top: 6%;
+    font-size: 50px;
+    color: rgb(243, 229, 205);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+#hero p{
+    margin: 1px;           /* Remove default margin */
+    padding: 0;
+    position: relative;
+    color: white;
+    font-size: 15px;
+    font-family:cursive;
+}
+
+#offer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#offer h2{
+    margin: 2%;
+    color: rgba(57, 127, 219, 0.99);
+    font-size: 20px;
+    
+    padding: 0%;
+}
+#offer h1{
+     margin: 0%;
+    padding: 0%;
+      font-size: 27px;
+}
+
+/* Cards */
+#cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.car-card {
+    width: 29   0px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 20px;
+}
+
+.car-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.car-info {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.car-info .category {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+
+.car-info .model {
+    font-size: 24px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.car-info .price {
+    font-size: 16px;
+    color: #009688;
+    margin: 0;
+}
+
+.car-features {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    color: #555;
+}
+
