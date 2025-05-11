@@ -1,0 +1,80 @@
+.rental-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.rental-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.rental-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.rental-form input,
+.rental-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#submit {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: #444;
+}
+
+
+/* thanks */
+.confirmation-section {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #f0f9ff;
+  padding: 30px;
+  border: 1px solid #cce5ff;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.confirmation-section h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.confirmation-section p {
+  margin: 10px 0;
+  color: #333;
+}
+
+.back-home {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.back-home:hover {
+  text-decoration: underline;
+}

@@ -34,6 +34,8 @@ nav{
     position: relative;
     padding: 8px;
     margin: 5px;
+    text-decoration: none;
+    color: black;
     border-radius: 5px;
     font-weight: bold; font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(220, 220, 3);
@@ -90,6 +92,8 @@ nav{
         position: relative;
     padding: 8px;
     margin: 20px;
+    text-decoration: none;
+    color: black;
     font-size: 26px;
     border-radius: 5px;
     font-weight: bold; font-family: Arial, Helvetica, sans-serif;
@@ -271,6 +275,101 @@ padding-top: 20px;
   font-size: 18px;
   color: #555;
 }
+/* customer review */
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 230px;
+    margin-top: 30px;
+}
+
+.review-card {
+  width: 250px;
+  padding: 20px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-card h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.review-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Footer */
+.footer {
+    margin-top: 80px;
+  background-color: #000000;
+  color: #f0f0f0;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+.footer-section p,
+.footer-section li {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a img {
+  width: 24px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #fffcfc;
+}
+
+
+
 
 /* Aboutpic */
 .aboutpic{
